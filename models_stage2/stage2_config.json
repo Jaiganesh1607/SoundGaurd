@@ -1,0 +1,39 @@
+{
+  "model_type": "LinearSVM",
+  "model_path": "C:\\Users\\Jaiganesh\\SoundGaurd\\models_stage2\\stage2_multiclass_linearsvm.joblib",
+  "feature_params": {
+    "sr": 22050,
+    "n_mfcc": 40,
+    "n_fft": 1024,
+    "win_length": 512,
+    "hop_length": 256,
+    "use_deltas": true,
+    "pool_stats": [
+      "mean",
+      "std"
+    ]
+  },
+  "results": {
+    "accuracy": 0.9461111111111111,
+    "precision": 0.9275766167537741,
+    "recall": 0.9247222222222222,
+    "f1": 0.9241119538361888
+  },
+  "class_names": [
+    "non_threat",
+    "glass_break",
+    "scream",
+    "gunshot"
+  ],
+  "class_mapping": {
+    "non_threat": 0,
+    "glass_break": 1,
+    "scream": 2,
+    "gunshot": 3
+  },
+  "dataset_info": {
+    "train_files": 4200,
+    "test_files": 1800,
+    "total_files": 6000
+  }
+}

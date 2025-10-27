@@ -1,0 +1,32 @@
+{
+  "model_type": "LogisticRegression",
+  "model_path": "C:\\Users\\Jaiganesh\\SoundGaurd\\models_stage1\\stage1_binary_logisticregression.joblib",
+  "feature_params": {
+    "sr": 22050,
+    "n_mfcc": 40,
+    "n_fft": 1024,
+    "win_length": 512,
+    "hop_length": 256,
+    "use_deltas": true,
+    "pool_stats": [
+      "mean",
+      "std"
+    ]
+  },
+  "results": {
+    "accuracy": 0.9872222222222222,
+    "precision": 0.9943630214205186,
+    "recall": 0.98,
+    "f1": 0.987129266927812,
+    "macro_f1": 0.9872215556922568
+  },
+  "label_mapping": {
+    "non_threat": 0,
+    "threat": 1
+  },
+  "dataset_info": {
+    "train_files": 4200,
+    "test_files": 1800,
+    "total_files": 6000
+  }
+}
